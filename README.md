@@ -1,0 +1,3 @@
+# Unexpected Output with Mutable Variables in F# Function
+
+This example demonstrates a potential pitfall when using mutable variables within F# functions.  The `add` function modifies its input variables, leading to unexpected results if you're not careful about how you handle the mutable state. The solution explains how to create more predictable and functional code.  A good practice is to avoid using mutable variables when possible and favor immutable data structures and techniques.
